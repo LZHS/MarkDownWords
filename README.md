@@ -20,6 +20,6 @@
 
 [链接3]:https://github.com/LZHS/MarkDownWords/blob/master/Kotlin/Kotlin%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0(%E4%B8%89)%20%E5%8C%85%E4%B8%8E%E5%AF%BC%E5%85%A5.md  
 
-[链接4]:https://github.com/LZHS/MarkDownWords/blob/master/Kotlin/Kotlin%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0(%E4%B8%89)%20%E5%8C%85%E4%B8%8E%E5%AF%BC%E5%85%A5.md
+[链接4]:https://github.com/LZHS/MarkDownWords/blob/master/Kotlin/Kotlin%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0(%E5%9B%9B)%E6%8E%A7%E5%88%B6%E6%B5%81.md
 
-[链接5]:https://github.com/LZHS/MarkDownWords/blob/master/Kotlin/Kotlin%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0(%E4%B8%89)%20%E5%8C%85%E4%B8%8E%E5%AF%BC%E5%85%A5.md
+[链接5]:https://github.com/LZHS/MarkDownWords/blob/master/Kotlin/Kotlin%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0(%E4%BA%94)%20%E8%BF%94%E5%9B%9E%E5%92%8C%E8%B7%B3%E8%BD%AC.md
