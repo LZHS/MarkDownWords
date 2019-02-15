@@ -45,18 +45,14 @@ Flutter 的安装总体按照[Flutter中文网]里面的步奏来就好，这里
 #### 问题二、在使用android studio的时候遇到的问题
 步奏如下：  
 
-
 1. 创建Flutter 项目  
-
 
 ![](https://raw.githubusercontent.com/LZHS/MarkDownWords/master/images/BE1FA8E3-2A8A-4452-A030-F3BA6D08AAF1.png)
 
-
 ![](https://raw.githubusercontent.com/LZHS/MarkDownWords/master/images/64CA7DF4-FACD-4496-B3D5-0808EB382C78.png)
-
  
 2. 注意事项
-3. ![](https://raw.githubusercontent.com/LZHS/MarkDownWords/master/images/3A416D2E-A4AF-4B94-BF64-C36B6241EC34.png) 
+![](https://raw.githubusercontent.com/LZHS/MarkDownWords/master/images/3A416D2E-A4AF-4B94-BF64-C36B6241EC34.png) 
  
  这里千万不能选择***Install SDK...***,这里一定要注意，哪怕你开了VPN 都不成，反正我是这里耗时2个小时没下载成功，其实这里的 话 你放之前你下载的Flutter 的路径就好了
  ![](https://raw.githubusercontent.com/LZHS/MarkDownWords/master/images/7C882A8D-FAA4-4AB4-95EF-C11582F3F256.png)
