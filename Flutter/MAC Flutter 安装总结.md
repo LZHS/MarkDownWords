@@ -5,7 +5,6 @@ Flutter 的安装总体按照[Flutter中文网]里面的步奏来就好，这里
 
 #### 问题一、在跟新IOS插件的时候遇到的问题
 
-
 ```
 [✗] iOS toolchain - develop for iOS devices
     ✗ Xcode installation is incomplete; a full installation is necessary for iOS
@@ -51,7 +50,9 @@ Flutter 的安装总体按照[Flutter中文网]里面的步奏来就好，这里
 
 ![](https://raw.githubusercontent.com/LZHS/MarkDownWords/master/images/BE1FA8E3-2A8A-4452-A030-F3BA6D08AAF1.png)
 
+
 ![](https://raw.githubusercontent.com/LZHS/MarkDownWords/master/images/64CA7DF4-FACD-4496-B3D5-0808EB382C78.png)
+
  
 2. 注意事项
 3. ![](https://raw.githubusercontent.com/LZHS/MarkDownWords/master/images/3A416D2E-A4AF-4B94-BF64-C36B6241EC34.png) 
