@@ -1,0 +1,63 @@
+package com.lzhs.lib_http
+
+import com.lzhs.myapplication.service.RetrofitHelp
+import java.lang.RuntimeException
+
+object ServiceManager {
+
+    var services = mutableMapOf<String, ServiceApiBase>()
+
+
+    fun getService(service: Class<ServiceApiBase>): ServiceApiBase {
+        val serviceName = service.name
+        if (!services.containsKey(serviceName)) {
+            if (service !is ServiceApiBase) throw RuntimeException("${serviceName.substringAfterLast(".")} 类，未实现 ServiceApiBase 接口！！")
+            services[serviceName] = RetrofitHelp.create(service)
+        }
+        return services[serviceName]!!
+    }
+}
+
+
+package com.lzhs.lib_http
+
+interface ServiceApiBase {
+    var baseUrl: String
+}
+
+package com.lzhs.myapplication.service
+
+import com.lzhs.lib_http.ServiceApiBase
+import javax.xml.datatype.DatatypeConstants.SECONDS
+import java.net.Proxy.NO_PROXY
+import okhttp3.OkHttpClient
+import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
+import retrofit2.Retrofit
+import java.net.Proxy
+import java.util.concurrent.TimeUnit
+
+
+object RetrofitHelp {
+    private const val DEFAULT_TIMEOUT:Long=30
+
+
+
+    fun   create(service: Class<ServiceApiBase>): ServiceApiBase {
+        val retrofit = Retrofit.Builder()
+            .client(getOkHttpClient())
+            .baseUrl("")
+            .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
+            .build()
+        return retrofit.create(service)
+    }
+
+    private fun getOkHttpClient(): OkHttpClient {
+        return OkHttpClient.Builder()
+            .proxy(Proxy.NO_PROXY)
+            .connectTimeout(DEFAULT_TIMEOUT, TimeUnit.SECONDS)
+            .readTimeout(DEFAULT_TIMEOUT, TimeUnit.SECONDS)
+            .writeTimeout(DEFAULT_TIMEOUT, TimeUnit.SECONDS)
+            .retryOnConnectionFailure(false)
+            .build()
+    }
+}
