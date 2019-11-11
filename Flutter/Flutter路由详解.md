@@ -7,8 +7,20 @@
 
 ## 二、Flutter 路由的详细介绍
 
-### 
+### 2.1 初始Navigator
 
+在android中，我们开启新的页面是Activity。在iOS中，我们开启的新页面是ViewControllers。在Flutter中，每一个页面都是一个小部件，我们如何开启到新页面呢？Flutter给我们提供了一个API，叫做**Navigator**
+
+**Navigation**继承自StatefulWidget，它也是小组件，它有很多相关的静态函数，可以帮我达到页面的跳转和数据交互的功能：
+
+* **push** 将设置的router信息推送到Navigator上，实现页面跳转。
+* **of** 主要是获取Navigator最近实例的好状态。
+* **pop** 导航到性页面，或者返回到上个页面。
+* **canPop** 判断是否可以导航到新页面。
+* **maybePop** 可能会导航到新页面
+
+
+ 
 
 
 
