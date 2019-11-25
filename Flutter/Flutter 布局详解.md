@@ -79,6 +79,8 @@ State的生命周期有四种状态：
  ![图片](../images/687474703a2f2f776879736f6469616f2e636f6d2f696d616765732f53746174652532304c6966654379636c652e706e67.png)
 
 
+https://www.xiaopiu.com/square?libPop=project&libId=5c306b252d5cd56e70a1e640
+
 
 
 
