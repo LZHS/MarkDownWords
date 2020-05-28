@@ -22,4 +22,5 @@ Stream.fromInterable([1,2,3]);
 - **onDone** :结束时触发
 - **unsubscribeOnError** :
 
-// TODO https://www.jianshu.com/p/a5d7758938ef
+## StreamController
+如果你想创建一条新的流的话，非常简单，使用StreamController，它为你提供了非常丰富的功能，你能够在StreamController上发送数据，处理错误，并获得结果
